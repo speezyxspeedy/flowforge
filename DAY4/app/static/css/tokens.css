@@ -1,0 +1,116 @@
+/* ===================================================================
+   FLOWFORGE DESIGN TOKENS
+   Visual Direction: Editorial Productivity
+   =================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Canvas & Paper Surfaces */
+  --bg-canvas: #FAF8F5;          /* Warm paper ivory */
+  --bg-surface: #FFFFFF;         /* Crisp card surface */
+  --bg-surface-subtle: #F5F2EC;  /* Subtle tinted area */
+  --bg-surface-hover: #F0EDE5;   /* Hover fill for rows/items */
+  --bg-sidebar: #F7F5F0;         /* Light warm sidebar */
+
+  /* Borders & Dividers */
+  --border-subtle: #ECE8E1;      /* Very soft border */
+  --border-default: #E1DDD4;     /* Standard component border */
+  --border-hover: #C8C3B8;       /* Highlighted border */
+  --border-focus: #7257E8;       /* Focus ring border */
+
+  /* Typography Colors */
+  --text-primary: #222220;       /* Deep charcoal */
+  --text-secondary: #65645F;     /* Muted warm slate */
+  --text-tertiary: #95938B;      /* Low-emphasis metadata */
+  --text-inverse: #FFFFFF;       /* Light text on dark accents */
+
+  /* Brand Accents */
+  --accent-violet: #7257E8;      /* Primary signature violet */
+  --accent-violet-hover: #5F44D8;
+  --accent-violet-subtle: #F1EDFD;
+  --accent-violet-border: #D6CBF9;
+
+  --accent-lime: #D9F27E;        /* Secondary energetic lime */
+  --accent-lime-subtle: #F5FBDF;
+  --accent-lime-text: #37460C;
+
+  /* Semantic Accents */
+  --color-success: #3E885B;
+  --color-success-subtle: #EDF7F1;
+  --color-warning: #D97706;
+  --color-warning-subtle: #FEF3C7;
+  --color-danger: #E05252;
+  --color-danger-subtle: #FDF0F0;
+  --color-info: #3B82F6;
+  --color-info-subtle: #EFF6FF;
+
+  /* Priority Palette */
+  --priority-urgent-bg: #FEE2E2;
+  --priority-urgent-text: #991B1B;
+  --priority-urgent-border: #FCA5A5;
+
+  --priority-high-bg: #FFEDD5;
+  --priority-high-text: #9A3412;
+  --priority-high-border: #FDBA74;
+
+  --priority-medium-bg: #FEF9C3;
+  --priority-medium-text: #854D0E;
+  --priority-medium-border: #FDE047;
+
+  --priority-low-bg: #F1F5F9;
+  --priority-low-text: #475569;
+  --priority-low-border: #CBD5E1;
+
+  /* Typography Scale */
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+
+  --text-xs: 0.75rem;     /* 12px */
+  --text-sm: 0.844rem;    /* 13.5px */
+  --text-base: 0.938rem;  /* 15px */
+  --text-lg: 1.125rem;    /* 18px */
+  --text-xl: 1.375rem;    /* 22px */
+  --text-2xl: 1.75rem;    /* 28px */
+  --text-3xl: 2.25rem;    /* 36px */
+
+  /* Spacing Scale */
+  --space-1: 0.25rem;     /* 4px */
+  --space-2: 0.5rem;      /* 8px */
+  --space-3: 0.75rem;     /* 12px */
+  --space-4: 1rem;        /* 16px */
+  --space-5: 1.25rem;     /* 20px */
+  --space-6: 1.5rem;      /* 24px */
+  --space-8: 2rem;        /* 32px */
+  --space-10: 2.5rem;     /* 40px */
+  --space-12: 3rem;       /* 48px */
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+  --radius-full: 9999px;
+
+  /* Refined Editorial Shadows */
+  --shadow-subtle: 0 1px 2px rgba(34, 34, 32, 0.04);
+  --shadow-card: 0 1px 3px rgba(34, 34, 32, 0.05), 0 6px 16px -4px rgba(34, 34, 32, 0.04);
+  --shadow-card-hover: 0 4px 12px rgba(34, 34, 32, 0.07), 0 12px 28px -6px rgba(34, 34, 32, 0.06);
+  --shadow-modal: 0 10px 30px -5px rgba(34, 34, 32, 0.12), 0 25px 60px -10px rgba(34, 34, 32, 0.15);
+  --shadow-dropdown: 0 4px 16px rgba(34, 34, 32, 0.08);
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 220ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 320ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Z-indices */
+  --z-base: 1;
+  --z-sticky: 10;
+  --z-header: 20;
+  --z-sidebar: 30;
+  --z-dropdown: 50;
+  --z-modal-backdrop: 90;
+  --z-modal: 100;
+  --z-toast: 200;
+}
